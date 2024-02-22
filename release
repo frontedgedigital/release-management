@@ -194,7 +194,7 @@ else
   echo "INFO: on branch $BRANCH, from which releases are allowed"
 fi
 
-if ! git diff --exit-code -no-patch $BRANCH $ORIGIN/$BRANCH; then
+if ! git diff --exit-code --no-patch $BRANCH $ORIGIN/$BRANCH; then
   echo "ERROR: Local branch $BRANCH differs from remote branch $ORIGIN/$BRANCH" >&2
   exit 3
 else
