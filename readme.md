@@ -1,10 +1,3 @@
-# `master` Branch Deprecation Notice: Use [dev](https://gitlab.com/northscaler-public/release-management/-/tree/dev)!
-
-> NOTE: the content in this branch is now frozen and will undergo no further development.
-> All new development will happen in the `dev` branch, however, the `master` branch will continue to be the default branch for backward compatibility.
-> You are encouraged to upgrade to the new releases beginning with 2.x.
-> Please see [the `dev` branch](https://github.com/frontedgedigital/release-management/tree/dev) for more information, including the [migration guide](https://github.com/frontedgedigital/release-management/blob/dev/migrating-from-pre-2.x.md).
-
 # Release Management Scripts
 
 This repository contains bash shell scripts that assist in implementing a release management strategy that is based on
